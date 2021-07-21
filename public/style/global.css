@@ -1,0 +1,60 @@
+/**
+ * https://typographyhandbook.com/
+ * https://www.modularscale.com/?1.25&em&1.33
+ */
+
+:root {
+  --primary-font: "Inter", sans-serif;
+  --line-height: 1.4;
+  --body-font-size: 1.25em;
+  --h5-font-size: 1.663em;
+  --h4-font-size: 2.211em;
+  --h3-font-size: 2.941em;
+  --h2-font-size: 3.911em;
+  --h1-font-size: 5.202em;
+
+  --bottom-margin: 1.75rem; /* 1.4 * 1.25 */
+  --title-bottom-margin: 3.5rem;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  line-height: var(--line-height);
+}
+
+p {
+  font-size: var(--body-font-size);
+  margin-bottom: var(--bottom-margin);
+}
+
+h6 {
+  font-size: var(--body-font-size);
+  margin-bottom: var(--bottom-margin);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+  margin-bottom: var(--bottom-margin);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+  margin-bottom: var(--bottom-margin);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--bottom-margin);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--bottom-margin);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--title-bottom-margin);
+}
