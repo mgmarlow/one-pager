@@ -1,0 +1,39 @@
+{
+  "suits": {
+    "diamond": {
+      "suit": "diamond",
+      "name": "artifact",
+      "examples": [
+        "an ornate compass",
+        "a colorful scroll",
+        "a glowing pendant"
+      ]
+    },
+    "spade": {
+      "suit": "spade",
+      "name": "shrine",
+      "examples": [
+        "an overgrown arch for a long-forgotten god",
+        "collection of dolls scattered on a rock face"
+      ]
+    },
+    "heart": { "suit": "heart", "name": "living_entity", "examples": [] },
+    "flora": { "suit": "club", "name": "flora", "examples": [] }
+  },
+  "values": {
+    "1": { "value": 1, "name": "forest_glade", "description": "grassy meadow" },
+    "2": { "value": 2, "name": "", "description": "" },
+    "3": { "value": 3, "name": "", "description": "" },
+    "4": { "value": 4, "name": "", "description": "" },
+    "5": { "value": 5, "name": "", "description": "" },
+    "6": { "value": 6, "name": "", "description": "" },
+    "7": { "value": 7, "name": "", "description": "" },
+    "8": { "value": 8, "name": "", "description": "" },
+    "9": { "value": 9, "name": "", "description": "" },
+    "10": { "value": 10, "name": "", "description": "" },
+    "11": { "value": 11, "name": "", "description": "" },
+    "12": { "value": 12, "name": "", "description": "" },
+    "13": { "value": 13, "name": "", "description": "" }
+  },
+  "meditations": []
+}
