@@ -1,7 +1,7 @@
 {
   "suits": {
-    "diamond": {
-      "suit": "diamond",
+    "diamonds": {
+      "suit": "diamonds",
       "name": "artifact",
       "examples": [
         "an ornate compass",
@@ -9,16 +9,16 @@
         "a glowing pendant"
       ]
     },
-    "spade": {
-      "suit": "spade",
+    "spades": {
+      "suit": "spades",
       "name": "shrine",
       "examples": [
         "an overgrown arch for a long-forgotten god",
         "collection of dolls scattered on a rock face"
       ]
     },
-    "heart": { "suit": "heart", "name": "living_entity", "examples": [] },
-    "flora": { "suit": "club", "name": "flora", "examples": [] }
+    "hearts": { "suit": "hearts", "name": "living_entity", "examples": [] },
+    "clubs": { "suit": "clubs", "name": "flora", "examples": [] }
   },
   "values": {
     "1": { "value": 1, "name": "forest_glade", "description": "grassy meadow" },
@@ -35,5 +35,8 @@
     "12": { "value": 12, "name": "", "description": "" },
     "13": { "value": 13, "name": "", "description": "" }
   },
-  "meditations": []
+  "meditations": [
+    "Draw an illustration of today's discoveries.",
+    "Something unexpected happened today. What was it and how did you respond?"
+  ]
 }
