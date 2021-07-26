@@ -4,21 +4,23 @@
  */
 
 :root {
-  --primary-font: "Inter", sans-serif;
+  --body-font: 'Inter', sans-serif;
+  --header-font: 'Work Sans', sans-serif;
+
   --line-height: 1.4;
   --body-font-size: 1.25em;
-  --h5-font-size: 1.663em;
-  --h4-font-size: 2.211em;
-  --h3-font-size: 2.941em;
-  --h2-font-size: 3.911em;
-  --h1-font-size: 5.202em;
+  --h4-font-size: 1.663em;
+  --h3-font-size: 2.211em;
+  --h2-font-size: 2.941em;
+  --h1-font-size: 3.911em;
+  --hero-font-size: 5.202em;
 
   --bottom-margin: 1.75rem; /* 1.4 * 1.25 */
   --title-bottom-margin: 3.5rem;
 }
 
 body {
-  font-family: var(--primary-font);
+  font-family: var(--body-font);
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
   line-height: var(--line-height);
@@ -29,14 +31,14 @@ p {
   margin-bottom: var(--bottom-margin);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-  font-size: var(--body-font-size);
-  margin-bottom: var(--bottom-margin);
-}
-
-h5 {
-  font-size: var(--h5-font-size);
-  margin-bottom: var(--bottom-margin);
+  font-family: var(--header-font);
+  font-weight: 600;
 }
 
 h4 {
