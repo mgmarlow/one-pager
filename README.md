@@ -10,4 +10,5 @@
 
 ## Attribution
 
-Thanks to [Smithsonian Open Access](https://www.si.edu/OpenAccess) for the images.
+- Thanks to Astro for their great [dark theme toggle](https://github.com/snowpackjs/astro/blob/main/docs/src/components/ThemeToggle.tsx) implementation
+- Thanks to [Smithsonian Open Access](https://www.si.edu/OpenAccess) for the images.

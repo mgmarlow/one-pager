@@ -17,6 +17,18 @@
 
   --bottom-margin: 1.75rem; /* 1.4 * 1.25 */
   --title-bottom-margin: 3.5rem;
+
+  --theme-bg: #fff;
+  --theme-text: #000;
+  --theme-text-light: #000;
+}
+
+:root.theme-dark {
+  color-scheme: dark;
+
+  --theme-bg: #171b21;
+  --theme-text: #e8e9eb;
+  --theme-text-light: #c5cad2;
 }
 
 body {
@@ -24,10 +36,18 @@ body {
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
   line-height: var(--line-height);
+  background-color: var(--theme-bg);
+}
+
+p,
+li,
+span,
+a {
+  color: var(--theme-text-light);
+  font-size: var(--body-font-size);
 }
 
 p {
-  font-size: var(--body-font-size);
   margin-bottom: var(--bottom-margin);
 }
 
@@ -37,6 +57,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--theme-text);
   font-family: var(--header-font);
   font-weight: 600;
 }

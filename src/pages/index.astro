@@ -1,13 +1,37 @@
 ---
 import Markdown from 'astro/components'
 import Layout from '../layouts/Layout.astro'
+import Discoveries from '../components/Discoveries.jsx'
+import Locations from '../components/Locations.jsx'
+import Meditations from '../components/Meditations.jsx'
+import ThemeToggle from '../components/ThemeToggle.jsx'
 ---
 
 <Layout>
+  <ThemeToggle client:idle />
+  
   <main>
     <Markdown>
       # The quick red fox jumps over the lazy brown dog.
-      ## the quick red fox jumps over the lazy brown dog
+      
+      A story-building game for one player. Craft your own world and watch it change through your adventures.
+      
+      ## How to play
+      
+      You will need:
+      
+      - A deck of cards
+      - A 12-sided die (d12)
+      - Pen and paper
+      
+      ## Discoveries
+      
+      <Discoveries />
+      <Locations />
+      
+      ## Campfire meditations
+      
+      <Meditations />
 
       Corporis quaerat ipsam nobis eos voluptate error debitis nostrum.
       Reiciendis sunt autem dolor cum. Ullam error dolores vel placeat animi
